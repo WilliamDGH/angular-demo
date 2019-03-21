@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 import { TodoService } from '../../services/todo.service';
+import { Todo } from '../../models/Todo'
 
 @Component({
   selector: 'app-todo-item',
@@ -36,5 +37,5 @@ export class TodoItemComponent implements OnInit {
     this.deleteTodo.emit(todo)
   }
 
-  
+
 }
