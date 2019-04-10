@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  name:string = 'Todo List';
+  name:string = 'Todos List';
 
   constructor() {
     console.log("hello");
